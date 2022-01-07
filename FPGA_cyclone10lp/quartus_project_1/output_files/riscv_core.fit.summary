@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Oct 15 18:16:48 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : riscv_core
+Top-level Entity Name : riscv_core
+Family : Cyclone 10 LP
+Device : 10CL025YU256C8G
+Timing Models : Final
+Total logic elements : 905 / 24,624 ( 4 % )
+    Total combinational functions : 899 / 24,624 ( 4 % )
+    Dedicated logic registers : 93 / 24,624 ( < 1 % )
+Total registers : 93
+Total pins : 3 / 151 ( 2 % )
+Total virtual pins : 0
+Total memory bits : 25,600 / 608,256 ( 4 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

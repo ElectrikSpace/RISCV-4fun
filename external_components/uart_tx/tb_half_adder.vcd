@@ -1,0 +1,55 @@
+$date
+  Sun Jan 24 22:48:46 2021
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module tb_half_adder $end
+$var reg 1 ! a $end
+$var reg 1 " c_in $end
+$var reg 1 # o $end
+$var reg 1 $ c_out $end
+$scope module used_half_adder $end
+$var reg 1 % a $end
+$var reg 1 & c_in $end
+$var reg 1 ' o $end
+$var reg 1 ( c_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+#5000000
+1"
+1#
+1&
+1'
+#10000000
+1!
+0"
+1%
+0&
+#15000000
+1"
+0#
+1$
+1&
+0'
+1(
+#20000000

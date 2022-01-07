@@ -1,0 +1,60 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000000400 xr
+RAM              0x0000000000008000 0x0000000000000400 xrw
+IO               0x000000000000c000 0x0000000000000002 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /tmp/cc3zSBpf.o
+LOAD /tmp/ccj8dUMd.o
+
+.text           0x0000000000000000       0x8c
+ *(.text)
+ .text          0x0000000000000000       0x5c /tmp/cc3zSBpf.o
+                0x0000000000000000                _start
+ .text          0x000000000000005c        0x0 /tmp/ccj8dUMd.o
+ *(.text.*)
+ .text.startup  0x000000000000005c       0x30 /tmp/ccj8dUMd.o
+                0x000000000000005c                main
+ *(.rodata)
+                0x000000000000008c                . = ALIGN (0x4)
+                0x000000000000008c                _etext = .
+
+.rela.dyn       0x000000000000008c        0x0
+ .rela.text     0x000000000000008c        0x0 /tmp/cc3zSBpf.o
+
+.data           0x0000000000008000       0x30 load address 0x000000000000008c
+                0x0000000000008000                _sdata = .
+                0x00000000000080ff                _stack_pointer = (. + 0xff)
+ *(.data)
+ .data          0x0000000000008000        0x0 /tmp/cc3zSBpf.o
+ .data          0x0000000000008000       0x2f /tmp/ccj8dUMd.o
+                0x0000000000008000                hello_string
+ *(.sdata)
+                0x0000000000008030                . = ALIGN (0x4)
+ *fill*         0x000000000000802f        0x1 
+                0x0000000000008030                _edata = .
+
+.bss            0x0000000000008030        0x0 load address 0x00000000000000bc
+                0x0000000000008030                _sbss = .
+ *(.bss)
+ .bss           0x0000000000008030        0x0 /tmp/cc3zSBpf.o
+ .bss           0x0000000000008030        0x0 /tmp/ccj8dUMd.o
+                0x0000000000008030                . = ALIGN (0x4)
+                0x0000000000008030                _ebss = .
+OUTPUT(hello_world.elf elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x1c
+ .riscv.attributes
+                0x0000000000000000       0x1a /tmp/cc3zSBpf.o
+ .riscv.attributes
+                0x000000000000001a       0x1c /tmp/ccj8dUMd.o
+
+.comment        0x0000000000000000       0x2a
+ .comment       0x0000000000000000       0x2a /tmp/ccj8dUMd.o
+                                         0x2b (size before relaxing)

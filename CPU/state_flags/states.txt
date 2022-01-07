@@ -1,0 +1,4 @@
+initial state : 00
+fetch and decode state : 01
+execute state : 10
+writeback state 11

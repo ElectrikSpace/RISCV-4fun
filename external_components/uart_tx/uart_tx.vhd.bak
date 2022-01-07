@@ -1,0 +1,159 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity uart_tx is
+  port(
+    uart_clk : in std_logic;
+    memory_clk : in std_logic;
+    memory_wren : in std_logic;
+    memory_address : in std_logic_vector(31 downto 0);
+    put_memory_data_on_memory_bus : in std_logic;
+    memory_bus : inout std_logic_vector(31 downto 0);
+    tx : out std_logic
+  );
+end uart_tx;
+
+architecture Behavioral of uart_tx is
+
+  component counter_4_bits is
+    port (
+      clk : in std_logic;
+      clk_enable : in std_logic;
+      reset : in std_logic;
+      counter_value : out std_logic_vector(3 downto 0)
+    );
+  end component;
+
+  component address_decoder is
+    port (
+     address_bus : in std_logic_vector(15 downto 0);
+     xc000 : out std_logic;
+     xc001 : out std_logic
+    );
+  end component;
+
+  component multiplexer_16_to_1 is
+    port (
+      i : in std_logic_vector(15 downto 0);
+      selector : in std_logic_vector(3 downto 0);
+      o : out std_logic
+    );
+  end component;
+
+  signal memory_address_register : std_logic_vector(15 downto 0);
+  signal memory_data_register : std_logic_vector(7 downto 0);
+  signal counter_value : std_logic_vector(3 downto 0);
+  signal mux_input : std_logic_vector(15 downto 0);
+  signal internal_reset : std_logic;
+  signal mux_output : std_logic;
+  signal data_register_clk_enable : std_logic;
+  signal output_register_clk_enable : std_logic;
+  signal counter_clk_enable : std_logic;
+  signal is_counter_0000 : std_logic;
+  signal is_counter_1011 : std_logic;
+  signal is_address_xc000 : std_logic;
+  signal is_address_xc001 : std_logic;
+  signal put_flag_on_memory_bus : std_logic;
+  signal flag : std_logic;
+  signal tx_signal : std_logic := '1';
+  signal memory_data : std_logic_vector(7 downto 0);
+  signal memory_address_real : std_logic_vector(15 downto 0);
+
+begin
+
+  memory_data <= memory_bus(7 downto 0);
+
+  memory_address_real <= memory_address(15 downto 0);
+
+  mux_input(15 downto 10) <= "111111";
+  mux_input(1 downto 0) <= "00";
+
+  is_counter_0000 <= (NOT counter_value(3)) AND (NOT counter_value(2)) AND (NOT counter_value(1)) AND (NOT counter_value(0));
+
+  is_counter_1011 <= counter_value(3) AND (NOT counter_value(2)) AND counter_value(1) AND counter_value(0);
+
+  output_register_clk_enable <= (NOT is_counter_0000) AND (NOT is_counter_1011);
+
+  internal_reset <= memory_wren AND is_address_xc000 AND is_counter_1011;
+
+  counter_clk_enable <= NOT is_counter_1011;
+
+  put_flag_on_memory_bus <= is_address_xc001 AND put_memory_data_on_memory_bus;
+
+  tx <= tx_signal;
+
+  counter : counter_4_bits port map(
+    clk => uart_clk,
+    clk_enable => counter_clk_enable,
+    reset => internal_reset,
+    counter_value => counter_value
+  );
+
+  decoder : address_decoder port map(
+    address_bus => memory_address_register,
+    xc000 => is_address_xc000,
+    xc001 => is_address_xc001
+  );
+
+  multiplexer : multiplexer_16_to_1 port map(
+    i => mux_input,
+    selector => counter_value,
+    o => mux_output
+  );
+
+  process(uart_clk)
+  begin
+    if rising_edge(uart_clk) then
+      if output_register_clk_enable='1' then
+        tx_signal <= mux_output;
+      end if;
+    end if;
+  end process;
+
+  process(memory_clk)
+  begin
+    if rising_edge(memory_clk) then
+      memory_address_register <= memory_address_real;
+      memory_data_register <= memory_data;
+    end if;
+  end process;
+
+  process(memory_clk)
+  begin
+    if rising_edge(memory_clk) then
+      if data_register_clk_enable='1' then
+        mux_input(9 downto 2) <= memory_data_register;
+      end if;
+    end if;
+  end process;
+
+  process(memory_clk)
+  begin
+    if rising_edge(memory_clk) then
+      if is_counter_1011='1' then
+        flag <= internal_reset;
+      end if;
+    end if;
+  end process;
+
+  process(put_flag_on_memory_bus, memory_data)
+  begin
+    if put_flag_on_memory_bus='1' then
+      memory_data(0) <= flag;
+      memory_data(7 downto 1) <= "0000000";
+    else
+      memory_data <= "ZZZZZZZZ";
+    end if;
+  end process;
+
+  -- process(put_flag_on_memory_bus)
+  -- begin
+  --   if put_flag_on_memory_bus='0' then
+  --     memory_data <= "ZZZZZZZZ";
+  --   else
+  --     memory_data(0) <= NOT is_counter_1011;
+  --     memory_data(7 downto 1) <= "0000000";
+  --   end if;
+  -- end process;
+
+end architecture;

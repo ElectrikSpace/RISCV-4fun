@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 15 18:16:41 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : riscv_core
+Top-level Entity Name : riscv_core
+Family : Cyclone 10 LP
+Total logic elements : 899
+    Total combinational functions : 899
+    Dedicated logic registers : 93
+Total registers : 93
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 25,600
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
