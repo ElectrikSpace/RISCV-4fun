@@ -45,7 +45,7 @@ begin
   byteena(2) <= is_word_store OR (memory_address(1) AND is_half_store) OR (memory_address(1) AND (NOT memory_address(0)) AND is_byte_store);
   byteena(1) <= is_word_store OR ((NOT memory_address(1)) AND is_half_store) OR ((NOT memory_address(1)) AND memory_address(0) AND is_byte_store);
   byteena(0) <= is_word_store OR ((NOT memory_address(1)) AND is_half_store) OR ((NOT memory_address(1)) AND (NOT memory_address(0)) AND is_byte_store);
-
+  
   RAM_block_instance : ram_block port map (
 		address	 => memory_address(9 downto 2),
 		byteena	 => byteena,

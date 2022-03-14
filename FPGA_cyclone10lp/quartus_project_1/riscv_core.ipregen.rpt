@@ -1,6 +1,6 @@
 IP Upgrade report for riscv_core
-Sun Feb 21 23:29:01 2021
-Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Fri Mar  4 23:43:37 2022
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
 ---------------------
@@ -8,14 +8,15 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 ---------------------
   1. Legal Notice
   2. IP Upgrade Summary
-  3. IP Upgrade Messages
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2020  Intel Corporation. All rights reserved.
+Copyright (C) 2021  Intel Corporation. All rights reserved.
 Your use of Intel Corporation's design tools, logic functions 
 and other software and tools, and any partner logic 
 functions, and any output files from any of the foregoing 
@@ -35,22 +36,34 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------+
 ; IP Upgrade Summary                                                         ;
 +------------------------------+---------------------------------------------+
-; IP Components Upgrade Status ; Failed - Sun Feb 21 23:29:01 2021           ;
-; Quartus Prime Version        ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
+; IP Components Upgrade Status ; Passed - Fri Mar  4 23:43:37 2022           ;
+; Quartus Prime Version        ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                ; riscv_core                                  ;
 ; Top-level Entity Name        ; riscv_core                                  ;
 ; Family                       ; Cyclone 10 LP                               ;
 +------------------------------+---------------------------------------------+
 
 
++--------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                ;
++-------------+----------------+---------+----------------------+----------------------+-------------------+---------+
+; Entity Name ; Component Name ; Version ; Original Source File ; Generation File Path ; New Source File   ; Message ;
++-------------+----------------+---------+----------------------+----------------------+-------------------+---------+
+; cpu_clock   ; ALTPLL         ; 20.1    ; PLL/cpu_clock.qip    ; PLL/cpu_clock.vhd    ; PLL/cpu_clock.qip ;         ;
++-------------+----------------+---------+----------------------+----------------------+-------------------+---------+
+
+
 +---------------------+
 ; IP Upgrade Messages ;
 +---------------------+
-Info (23030): Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info (11902): Backing up file "PLL/cpu_clock.vhd" to "PLL/cpu_clock.BAK.vhd"
+Info (11837): Started upgrading IP component ALTPLL with file "PLL/cpu_clock.vhd"
+Info (11131): Completed upgrading IP component ALTPLL with file "PLL/cpu_clock.vhd"
+Info (23030): Evaluation of Tcl script /opt/intelFPGA_lite/21.1/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
 Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4853 megabytes
-    Info: Processing ended: Sun Feb 21 23:29:01 2021
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Peak virtual memory: 603 megabytes
+    Info: Processing ended: Fri Mar  4 23:43:37 2022
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:15
 
 

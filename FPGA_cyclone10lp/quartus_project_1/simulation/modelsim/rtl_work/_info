@@ -1,2596 +1,2606 @@
 m255
 K4
 z2
+!s99 nomlopt
 !s11e MIXED_VERSIONS
-!s11f vlog 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/simulation/modelsim
+Z0 d/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/simulation/modelsim
+T_opt
+!s110 1647209373
+VjRUEGlz;ZVROzDQR628oT0
+04 6 10 work tb_cpu test_bench 1
+=1-806d971dc347-622e6b9c-e18db-1032a
+!s124 OEM10U462 
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclone10lp -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
 Eadder_block_16_bits
-Z1 w1611509330
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z2 w1611509330
+Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 52
 R0
-Z5 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd
-Z6 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd
+Z6 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd
+Z7 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd
 l0
 L5 1
 VR6>3A^CS]>T8Q;lSN2fO93
 !s100 Um]^0I`?BT5idLUZj8l<80
-Z7 OV;C;2020.1;71
+Z8 OL;C;2021.2;73
 31
-Z8 !s110 1614695171
+Z9 !s110 1647209372
 !i10b 1
-Z9 !s108 1614695171.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd|
-Z11 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd|
-!i113 1
-Z12 o-93 -work work
-Z13 tExplicit 1 CvgOpt 0
+Z10 !s108 1647209372.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd|
+Z12 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
 Abehavioral
-R2
 R3
 R4
+R5
 DEx4 work 19 adder_block_16_bits 0 22 R6>3A^CS]>T8Q;lSN2fO93
 !i122 52
 l44
-Z14 L17 32
+Z15 L17 32
 VNC3]8=eeCb=i[]fbH@a7z2
 !s100 ZVkC;baoOR7[AH?ZmAZ@G3
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
 R10
 R11
-!i113 1
 R12
+!i113 0
 R13
+R14
 Eadder_block_4_bits_serial
-Z15 w1611508420
-R2
+Z16 w1611508420
 R3
 R4
+R5
 !i122 54
 R0
-Z16 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd
-Z17 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd
+Z17 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd
+Z18 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd
 l0
 L5 1
 VM9RUQ9I^UjIjQVE;KfY2k2
 !s100 9Rn:_a2U_SglR@4Zga0Me3
-R7
-31
 R8
-!i10b 1
+31
 R9
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd|
-Z19 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd|
+Z20 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R2
 R3
 R4
+R5
 DEx4 work 25 adder_block_4_bits_serial 0 22 M9RUQ9I^UjIjQVE;KfY2k2
 !i122 54
 l45
 L17 35
 Vb>?KE]G<f2ZI>7jd[JjBL2
 !s100 U<e>8i_?KSXMC[1Kz=7_20
-R7
-31
 R8
-!i10b 1
+31
 R9
-R18
+!i10b 1
+R10
 R19
-!i113 1
-R12
+R20
+!i113 0
 R13
+R14
 Eadder_block_8_bits
-Z20 w1611509292
-R2
+Z21 w1611509292
 R3
 R4
+R5
 !i122 53
 R0
-Z21 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd
-Z22 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd
+Z22 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd
+Z23 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd
 l0
 L5 1
 VFXW87MJRRISUzHXAGHU_S3
 !s100 SMYDdPCZ@hOZ]OjKTn3o>3
-R7
-31
 R8
-!i10b 1
+31
 R9
-Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd|
-Z24 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd|
+Z25 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R2
 R3
 R4
+R5
 DEx4 work 18 adder_block_8_bits 0 22 FXW87MJRRISUzHXAGHU_S3
 !i122 53
 l44
-R14
+R15
 Vhfi[;<JH1cijU;57T^Rmn2
 !s100 >ODgjLWW4Y:H`oh<aecn>1
-R7
-31
 R8
-!i10b 1
+31
 R9
-R23
+!i10b 1
+R10
 R24
-!i113 1
-R12
+R25
+!i113 0
 R13
+R14
 Eaddress_decoder
-Z25 w1612179446
-R3
+Z26 w1612179446
 R4
+R5
 !i122 8
 R0
-Z26 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/address_decoder.vhd
-Z27 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/address_decoder.vhd
+Z27 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/address_decoder.vhd
+Z28 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/address_decoder.vhd
 l0
 L4 1
 V>caNng=4`Pff8z]V?^4KP0
 !s100 87^oHmmE0NX;gK`jG_gdO0
-R7
+R8
 31
-Z28 !s110 1614695163
+Z29 !s110 1647209369
 !i10b 1
-Z29 !s108 1614695163.000000
-Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/address_decoder.vhd|
-Z31 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/address_decoder.vhd|
-!i113 1
-R12
+Z30 !s108 1647209369.000000
+Z31 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/address_decoder.vhd|
+Z32 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/address_decoder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 15 address_decoder 0 22 >caNng=4`Pff8z]V?^4KP0
 !i122 8
 l16
 L12 20
 Vh]mPRdX9?2T_:OHA<;bDz2
 !s100 cG;kTN[>1c9kA3=;H:9M63
-R7
+R8
 31
-R28
-!i10b 1
 R29
+!i10b 1
 R30
 R31
-!i113 1
-R12
+R32
+!i113 0
 R13
+R14
 Ealu
-Z32 w1613487978
-R3
+Z33 w1613487978
 R4
+R5
 !i122 56
 R0
-Z33 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU.vhd
-Z34 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU.vhd
+Z34 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU.vhd
+Z35 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU.vhd
 l0
 L4 1
 VXe<4@hJJ93R96:Bn6]PPe1
 !s100 X:^eTQ12U^6?FcjccK8hz1
-R7
-31
 R8
-!i10b 1
+31
 R9
-Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU.vhd|
-Z36 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z36 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU.vhd|
+Z37 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 3 alu 0 22 Xe<4@hJJ93R96:Bn6]PPe1
 !i122 56
 l71
 L18 65
 VaNSY79U79[5KJIE75_fES3
 !s100 W?QObZ[Ie<BK=PF:d]W:]2
-R7
-31
 R8
-!i10b 1
+31
 R9
-R35
+!i10b 1
+R10
 R36
-!i113 1
-R12
+R37
+!i113 0
 R13
+R14
 Ealu_inputs_manager
-Z37 w1613403890
-R3
+Z38 w1613403890
 R4
+R5
 !i122 1
 R0
-Z38 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/ALU_inputs_manager.vhd
-Z39 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/ALU_inputs_manager.vhd
+Z39 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/ALU_inputs_manager.vhd
+Z40 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/ALU_inputs_manager.vhd
 l0
 L4 1
 VL2;Z`H[m0[=bT6?>Lb]n<0
 !s100 iJcfS1Mn<ZhomNFVnBBlO1
-R7
+R8
 31
-Z40 !s110 1614695162
+R29
 !i10b 1
-Z41 !s108 1614695162.000000
-Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/ALU_inputs_manager.vhd|
-Z43 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/ALU_inputs_manager.vhd|
-!i113 1
-R12
+R30
+Z41 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/ALU_inputs_manager.vhd|
+Z42 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/ALU_inputs_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 alu_inputs_manager 0 22 L2;Z`H[m0[=bT6?>Lb]n<0
 !i122 1
 l19
-Z44 L17 17
+Z43 L17 17
 V8F<ka0D2=;39:TB1gYKJ43
 !s100 ^V57=PPJKDV?LAeYCNDM>1
-R7
+R8
 31
-R40
+R29
 !i10b 1
+R30
 R41
 R42
-R43
-!i113 1
-R12
+!i113 0
 R13
+R14
 Ealu_opcode_feeder
-Z45 w1613511958
-R3
+Z44 w1613511958
 R4
+R5
 !i122 28
 R0
-Z46 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/alu_opcode_feeder.vhd
-Z47 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/alu_opcode_feeder.vhd
+Z45 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/alu_opcode_feeder.vhd
+Z46 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/alu_opcode_feeder.vhd
 l0
 L4 1
 V2@Dfi9DPLNIESF7LVHz5C3
 !s100 SjnZ_Z:K4GgNL6^m<e9;d2
-R7
+R8
 31
-Z48 !s110 1614695167
+Z47 !s110 1647209370
 !i10b 1
-Z49 !s108 1614695167.000000
-Z50 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/alu_opcode_feeder.vhd|
-Z51 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/alu_opcode_feeder.vhd|
-!i113 1
-R12
+Z48 !s108 1647209370.000000
+Z49 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/alu_opcode_feeder.vhd|
+Z50 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/alu_opcode_feeder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 17 alu_opcode_feeder 0 22 2@Dfi9DPLNIESF7LVHz5C3
 !i122 28
 l36
 L27 44
 V5g?:5`>^TEFjc>UgOB_iB3
 !s100 <8dech@LfhOo[SDIZ8DmX3
-R7
+R8
 31
-R48
+R47
 !i10b 1
+R48
 R49
 R50
-R51
-!i113 1
-R12
+!i113 0
 R13
+R14
 Ealu_package
-Z52 w1613406454
-R3
+Z51 w1613406454
 R4
+R5
 !i122 55
 R0
-Z53 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU_package.vhd
-Z54 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU_package.vhd
+Z52 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU_package.vhd
+Z53 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU_package.vhd
 l0
 L4 1
 VZ9ZfA<gWYY7:5md3GHTjW0
 !s100 R7D5TH@2l4?2U:d?L4ecf3
-R7
-31
 R8
-!i10b 1
+31
 R9
-Z55 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU_package.vhd|
-Z56 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/ALU_package.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z54 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU_package.vhd|
+Z55 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU_package.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 11 alu_package 0 22 Z9ZfA<gWYY7:5md3GHTjW0
 !i122 55
 l52
 L21 56
 V``^d7fX]dekIUWSe=3[9d2
 !s100 D80JJBTha>BS?O^IDBm2J3
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
+R10
+R54
 R55
-R56
-!i113 1
-R12
+!i113 0
 R13
+R14
 Earithmetic_unit
-Z57 w1611511094
-R2
+Z56 w1611511094
 R3
 R4
+R5
 !i122 51
 R0
-Z58 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd
-Z59 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd
+Z57 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd
+Z58 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd
 l0
 L5 1
 VAblLHQJFTTWG?KJOg<@m83
 !s100 CzRXoFZEP4E6Iz_R8WMej3
-R7
-31
 R8
-!i10b 1
+31
 R9
-Z60 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd|
-Z61 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z59 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd|
+Z60 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R2
 R3
 R4
+R5
 DEx4 work 15 arithmetic_unit 0 22 AblLHQJFTTWG?KJOg<@m83
 !i122 51
 l54
 L16 47
 V]UU2B:[z;njdAg]dVR0[E0
 !s100 7>GKHNZa[WdZW5B7f=QGT2
-R7
-31
 R8
-!i10b 1
+31
 R9
+!i10b 1
+R10
+R59
 R60
-R61
-!i113 1
-R12
+!i113 0
 R13
+R14
 Eblock_2_bits
-Z62 w1611424756
-R3
+Z61 w1611424756
 R4
+R5
 !i122 46
 R0
-Z63 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits.vhd
-Z64 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits.vhd
+Z62 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits.vhd
+Z63 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits.vhd
 l0
 L4 1
 VSb9`=Q?f;dCOhlOHR]TmR1
 !s100 deei[L4oZcFdkZEa@2E9K2
-R7
+R8
 31
-Z65 !s110 1614695170
+Z64 !s110 1647209371
 !i10b 1
-Z66 !s108 1614695170.000000
-Z67 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits.vhd|
-Z68 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits.vhd|
-!i113 1
-R12
+Z65 !s108 1647209371.000000
+Z66 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits.vhd|
+Z67 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 12 block_2_bits 0 22 Sb9`=Q?f;dCOhlOHR]TmR1
 !i122 46
 l37
 L14 28
 VVe<`_hS3EIab4gP?EmYES1
 !s100 IXo>@:X]AXAal]e1^ig^h0
-R7
+R8
 31
-R65
+R64
 !i10b 1
+R65
 R66
 R67
-R68
-!i113 1
-R12
+!i113 0
 R13
+R14
 Eblock_2_bits_signed
-Z69 w1611426574
-R3
+Z68 w1611426574
 R4
+R5
 !i122 45
 R0
-Z70 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits_signed.vhd
-Z71 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits_signed.vhd
+Z69 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits_signed.vhd
+Z70 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits_signed.vhd
 l0
 L4 1
 VcXZ7Hk7_N_>?74ng64jG>1
 !s100 [XJiLXQO`@MellD<F:>711
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
-Z72 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits_signed.vhd|
-Z73 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/block_2_bits_signed.vhd|
-!i113 1
-R12
+R65
+Z71 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits_signed.vhd|
+Z72 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits_signed.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 19 block_2_bits_signed 0 22 cXZ7Hk7_N_>?74ng64jG>1
 !i122 45
 l48
 L15 38
 V7bd^BRP^_8IMYJXd2`cB90
 !s100 869RPP88fG@=hn@LRj0i03
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
+R65
+R71
 R72
-R73
-!i113 1
-R12
+!i113 0
 R13
+R14
 Ecarry_generator
-Z74 w1611508246
-R3
+Z73 w1611508246
 R4
+R5
 !i122 50
 R0
-Z75 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/carry_generator.vhd
-Z76 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/carry_generator.vhd
+Z74 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/carry_generator.vhd
+Z75 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/carry_generator.vhd
 l0
 L4 1
 V?=b69B3@Ubf;WQ9;kgfWV3
 !s100 al`AC]7CO_NHM_jP0dbUf2
-R7
+R8
 31
-R65
+R9
 !i10b 1
-R66
-Z77 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/carry_generator.vhd|
-Z78 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/carry_generator.vhd|
-!i113 1
-R12
+R10
+Z76 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/carry_generator.vhd|
+Z77 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/carry_generator.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 15 carry_generator 0 22 ?=b69B3@Ubf;WQ9;kgfWV3
 !i122 50
 l15
-Z79 L14 5
+Z78 L14 5
 Vo96PhJ0J^nW`1S1zL:UkV1
 !s100 D=26F`ABbCQaTiR:z4egH0
-R7
+R8
 31
-R65
+R9
 !i10b 1
-R66
+R10
+R76
 R77
-R78
-!i113 1
-R12
+!i113 0
 R13
+R14
 Ecomparator_unit
-Z80 w1611431252
-R3
+Z79 w1611431252
 R4
+R5
 !i122 44
 R0
-Z81 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/comparator_unit.vhd
-Z82 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/comparator_unit.vhd
+Z80 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/comparator_unit.vhd
+Z81 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/comparator_unit.vhd
 l0
 L4 1
 VFiobaH9IIc1ldD@@z@Jo40
 !s100 45GRj?kn[<>j7zahcnlC63
-R7
+R8
 31
-Z83 !s110 1614695169
+R64
 !i10b 1
-Z84 !s108 1614695169.000000
-Z85 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/comparator_unit.vhd|
-Z86 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/comparator_unit.vhd|
-!i113 1
-R12
+R65
+Z82 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/comparator_unit.vhd|
+Z83 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/comparator_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 15 comparator_unit 0 22 FiobaH9IIc1ldD@@z@Jo40
 !i122 44
 l67
 L15 104
 V^V8L7VAe?YVQ[7aOh287k2
 !s100 ^:3lBS6?CEkMJ_gBT^?ST2
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-R85
-R86
-!i113 1
-R12
+R65
+R82
+R83
+!i113 0
 R13
+R14
 Ecounter_4_bits
-Z87 w1612826496
-R3
+Z84 w1612826496
 R4
+R5
 !i122 7
 R0
-Z88 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/counter_4_bits.vhd
-Z89 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/counter_4_bits.vhd
+Z85 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/counter_4_bits.vhd
+Z86 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/counter_4_bits.vhd
 l0
 L4 1
 V3l<OOc9WhVQMDiBD;f5Az1
 !s100 2H:4>zI:N^M?Ro7Yb1FoP3
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z90 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/counter_4_bits.vhd|
-Z91 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/counter_4_bits.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z87 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/counter_4_bits.vhd|
+Z88 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/counter_4_bits.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 14 counter_4_bits 0 22 3l<OOc9WhVQMDiBD;f5Az1
 !i122 7
 l29
 L13 62
 VRX<a?LZjOTOQ1[4V@lD@D2
 !s100 4PFimVCl]BcX^9Rd^[gbo1
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R90
-R91
-!i113 1
-R12
+!i10b 1
+R30
+R87
+R88
+!i113 0
 R13
+R14
 Ecpu
-Z92 w1613486532
-R3
+Z89 w1613486532
 R4
+R5
 !i122 57
 R0
-Z93 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/CPU.vhd
-Z94 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/CPU.vhd
+Z90 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/CPU.vhd
+Z91 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/CPU.vhd
 l0
 L4 1
 VNegcm<[WW<o[;]08idfMo2
 !s100 9F@1?mgad[G[jd<M]cLL<1
-R7
+R8
 31
-Z95 !s110 1614695172
-!i10b 1
 R9
-Z96 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/CPU.vhd|
-Z97 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/CPU.vhd|
-!i113 1
-R12
+!i10b 1
+R10
+Z92 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/CPU.vhd|
+Z93 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/CPU.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 3 cpu 0 22 Negcm<[WW<o[;]08idfMo2
 !i122 57
 l211
 L13 342
 V[?`M@TedLV5B>UXRKcA^I2
 !s100 5@RHo1KAzPaJ^X1g6^6=<0
-R7
+R8
 31
-R95
-!i10b 1
 R9
-R96
-R97
-!i113 1
-R12
+!i10b 1
+R10
+R92
+R93
+!i113 0
 R13
+R14
 Ecpu_clock
-Z98 w1613563858
-R3
+Z94 w1646433816
 R4
+R5
 !i122 61
 R0
-Z99 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd
-Z100 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd
+Z95 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd
+Z96 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd
 l0
-Z101 L43 1
+Z97 L43 1
 VYYVDkTHPT8Q5<c]U>RYj^2
 !s100 0lB5eBNA3RAT2e<kl00Td3
-R7
+R8
 31
-R95
+R9
 !i10b 1
-Z102 !s108 1614695172.000000
-Z103 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd|
-Z104 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd|
-!i113 1
-R12
+R10
+Z98 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd|
+Z99 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/PLL/cpu_clock.vhd|
+!i113 0
 R13
+R14
 Asyn
-R3
 R4
+R5
 DEx4 work 9 cpu_clock 0 22 YYVDkTHPT8Q5<c]U>RYj^2
 !i122 61
 l132
 L53 158
-VJ=RM2GNYclozb?8IQ47kI1
-!s100 aUZUm5h6R7gJN2_=z[Zmm2
-R7
+VKmXQcCcKK2Ec9doXUG;531
+!s100 AZKOIj_abi1Z0D8;FG56X2
+R8
 31
-R95
+R9
 !i10b 1
-R102
-R103
-R104
-!i113 1
-R12
+R10
+R98
+R99
+!i113 0
 R13
+R14
 vcpu_clock_altpll1
-R40
+R29
 !i10b 1
-!s100 L3=8Emh<;6^a]OATjE]V<3
-!s11b Dg1SIo80bB@j0V0VzS_@n1
-IYYjjYM@HS1]SNTkeN3kUZ1
-VDg1SIo80bB@j0V0VzS_@n1
+!s100 fTeUVc_:d[CL3[9<ki7=02
+IOcYDCd44]5e9O`CP<o9zL3
 R0
-w1613486774
-8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v
-FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v
+w1646433941
+8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v
+F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v
 !i122 0
 L0 30 67
-OV;L;2020.1;71
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.2;73
 r1
 !s85 0
 31
-R41
-!s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v|
-!i113 1
-o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/db
-tCvgOpt 0
+R30
+!s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v|
+!i113 0
+o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 Edecoder
-Z105 w1613513686
-R3
+Z100 w1613513686
 R4
+R5
 !i122 27
 R0
-Z106 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/decoder.vhd
-Z107 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/decoder.vhd
+Z101 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/decoder.vhd
+Z102 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/decoder.vhd
 l0
 L4 1
 VzacH]21f0i^4UROTkMWh^2
 !s100 kZjV[e`zB<HPENST2>3MA3
-R7
+R8
 31
-Z108 !s110 1614695166
+R47
 !i10b 1
-Z109 !s108 1614695166.000000
-Z110 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/decoder.vhd|
-Z111 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/decoder.vhd|
-!i113 1
-R12
+R48
+Z103 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/decoder.vhd|
+Z104 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/decoder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 7 decoder 0 22 zacH]21f0i^4UROTkMWh^2
 !i122 27
 l194
 L48 281
 VG0j^>9>OR=XPA4:QKC>D63
 !s100 mo97hgkczGaN2GNShSC@41
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R110
-R111
-!i113 1
-R12
+R48
+R103
+R104
+!i113 0
 R13
+R14
 Ehalf_adder
-Z112 w1604250704
-R3
+Z105 w1604250704
 R4
+R5
 !i122 6
 R0
-Z113 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/half_adder.vhd
-Z114 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/half_adder.vhd
+Z106 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/half_adder.vhd
+Z107 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/half_adder.vhd
 l0
 L4 1
 VPQXJPOg07C3eZHz2oZ75]1
 !s100 1S^1YEV>TTXb=:8o2bbXP2
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z115 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/half_adder.vhd|
-Z116 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/half_adder.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z108 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/half_adder.vhd|
+Z109 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/half_adder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 10 half_adder 0 22 PQXJPOg07C3eZHz2oZ75]1
 !i122 6
 l15
-R79
+R78
 V4lgN2PRk=GICk1feLOKBW0
 !s100 78hOZGR@DoFX^oP0zVb]92
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R115
-R116
-!i113 1
-R12
+!i10b 1
+R30
+R108
+R109
+!i113 0
 R13
+R14
 Eimmediate_generator
-Z117 w1613402252
-R3
+Z110 w1613402252
 R4
+R5
 !i122 26
 R0
-Z118 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/immediate_generator.vhd
-Z119 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/immediate_generator.vhd
+Z111 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/immediate_generator.vhd
+Z112 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/immediate_generator.vhd
 l0
 L4 1
 V>YclD18L]If9PAA=^Ll390
 !s100 1_3n?bYfzahDCkj?97cG91
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-Z120 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/immediate_generator.vhd|
-Z121 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/immediate_generator.vhd|
-!i113 1
-R12
+R48
+Z113 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/immediate_generator.vhd|
+Z114 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/immediate_generator.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 19 immediate_generator 0 22 >YclD18L]If9PAA=^Ll390
 !i122 26
 l27
 L16 57
 VgZ6dd26fcOZzS3Ml5IYH?1
 !s100 KVklQVYZmJg==im4<>@8k1
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R120
-R121
-!i113 1
-R12
+R48
+R113
+R114
+!i113 0
 R13
+R14
 Eincrementer_16_bits_by_4
-Z122 w1611515296
-R3
+Z115 w1611515296
 R4
+R5
 !i122 17
 R0
-Z123 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/incrementer_16_bits_by_4.vhd
-Z124 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/incrementer_16_bits_by_4.vhd
+Z116 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/incrementer_16_bits_by_4.vhd
+Z117 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/incrementer_16_bits_by_4.vhd
 l0
 L4 1
 VcYc;R81;5<8LR9za0XXCS3
 !s100 [bDTP?DAJ:Qdc=EI`o6N^1
-R7
+R8
 31
-Z125 !s110 1614695165
+R47
 !i10b 1
-Z126 !s108 1614695165.000000
-Z127 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/incrementer_16_bits_by_4.vhd|
-Z128 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/incrementer_16_bits_by_4.vhd|
-!i113 1
-R12
+R48
+Z118 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/incrementer_16_bits_by_4.vhd|
+Z119 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/incrementer_16_bits_by_4.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 24 incrementer_16_bits_by_4 0 22 cYc;R81;5<8LR9za0XXCS3
 !i122 17
 l21
 L12 28
 VeY_]f?@eh5R@aB7lY2k`e2
 !s100 9feg56;D5VbN9fNDK_H_Z2
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R127
-R128
-!i113 1
-R12
+R48
+R118
+R119
+!i113 0
 R13
+R14
 Einstruction_format_decoder
-Z129 w1613493406
-R3
+Z120 w1613493406
 R4
+R5
 !i122 25
 R0
-Z130 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_format_decoder.vhd
-Z131 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_format_decoder.vhd
+Z121 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_format_decoder.vhd
+Z122 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_format_decoder.vhd
 l0
 L4 1
 VeKPdE8BX5i_9O05O@?DnZ3
 !s100 `8c^NCKg1CY8>jm:^[?7D3
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-Z132 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_format_decoder.vhd|
-Z133 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_format_decoder.vhd|
-!i113 1
-R12
+R48
+Z123 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_format_decoder.vhd|
+Z124 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_format_decoder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 26 instruction_format_decoder 0 22 eKPdE8BX5i_9O05O@?DnZ3
 !i122 25
 l26
 L24 17
 VcDzN^5Nf<biOdY?N0f=I91
 !s100 QCb<j1O_md7i7[8:YP^8C3
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R132
-R133
-!i113 1
-R12
+R48
+R123
+R124
+!i113 0
 R13
+R14
 Einstruction_type_decoder
-Z134 w1613215674
-R3
+Z125 w1613215674
 R4
+R5
 !i122 24
 R0
-Z135 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_type_decoder.vhd
-Z136 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_type_decoder.vhd
+Z126 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_type_decoder.vhd
+Z127 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_type_decoder.vhd
 l0
 L4 1
 Vl`DI<Q]Y?5YX@kU1F@^Q21
 !s100 ^6N4`;7e<W^zVPS91Kd2F3
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-Z137 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_type_decoder.vhd|
-Z138 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/instruction_type_decoder.vhd|
-!i113 1
-R12
+R48
+Z128 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_type_decoder.vhd|
+Z129 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/instruction_type_decoder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 24 instruction_type_decoder 0 22 l`DI<Q]Y?5YX@kU1F@^Q21
 !i122 24
 l25
 L19 44
 V=]ReiN8LOgN28m1G527>]2
 !s100 MmTCd?QEZ[Ja@PJNz>BFh2
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R137
-R138
-!i113 1
-R12
+R48
+R128
+R129
+!i113 0
 R13
+R14
 Eio_manager
-Z139 w1613482972
-R3
+Z130 w1613482972
 R4
+R5
 !i122 9
 R0
-Z140 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/IO_manager.vhd
-Z141 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/IO_manager.vhd
+Z131 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/IO_manager.vhd
+Z132 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/IO_manager.vhd
 l0
 L4 1
 VaH8T1eN]=E74GIc6Of?a13
 !s100 HAXZ:RDKeE:NibJcz1?Ce1
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z142 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/IO_manager.vhd|
-Z143 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/IO_manager.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z133 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/IO_manager.vhd|
+Z134 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/IO_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 10 io_manager 0 22 aH8T1eN]=E74GIc6Of?a13
 !i122 9
 l32
 L17 29
 VW0F1n4`TJ;0F]ADo8iPeK2
 !s100 BRDSSBR3n9;:WXmgj_Iji1
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R142
-R143
-!i113 1
-R12
+!i10b 1
+R30
+R133
+R134
+!i113 0
 R13
+R14
 Eload_manager
-Z144 w1613584990
-R3
+Z135 w1613584990
 R4
+R5
 !i122 14
 R0
-Z145 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/load_manager.vhd
-Z146 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/load_manager.vhd
+Z136 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/load_manager.vhd
+Z137 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/load_manager.vhd
 l0
 L4 1
 V=7Ua?R61geCLNO4ai7zKo0
 !s100 V;RSi[EAXECe=Ac@42L;n2
-R7
+R8
 31
-Z147 !s110 1614695164
+R47
 !i10b 1
-Z148 !s108 1614695164.000000
-Z149 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/load_manager.vhd|
-Z150 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/load_manager.vhd|
-!i113 1
-R12
+R30
+Z138 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/load_manager.vhd|
+Z139 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/load_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 12 load_manager 0 22 =7Ua?R61geCLNO4ai7zKo0
 !i122 14
 l23
 L17 61
 Vdn:<K28IHgaj[AifGo3FR3
 !s100 d8LX__JKSoJodXh_J4SRQ1
-R7
+R8
 31
-R147
+R47
 !i10b 1
-R148
-R149
-R150
-!i113 1
-R12
+R30
+R138
+R139
+!i113 0
 R13
+R14
 Elogic_bloc_1_bit
-Z151 w1613345938
-R3
+Z140 w1613345938
 R4
+R5
 !i122 39
 R0
-Z152 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd
-Z153 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd
+Z141 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd
+Z142 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd
 l0
 L4 1
 V8R:P1^XP[omdKB43?7JIF1
 !s100 `;9ol7Zf7:0H6OR5bPgbI3
-R7
+R8
 31
-R83
+R64
 !i10b 1
-Z154 !s108 1614695168.000000
-Z155 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd|
-Z156 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd|
-!i113 1
-R12
+R65
+Z143 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd|
+Z144 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 16 logic_bloc_1_bit 0 22 8R:P1^XP[omdKB43?7JIF1
 !i122 39
 l18
 L14 18
 VPc>P2Qa=NNP@aX1>I^NPV1
 !s100 go1e8`LhLAC5DRd39HTjV3
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R154
-R155
-R156
-!i113 1
-R12
+R65
+R143
+R144
+!i113 0
 R13
+R14
 Elogic_block
-Z157 w1611411360
-R3
+Z145 w1611411360
 R4
+R5
 !i122 43
 R0
-Z158 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block.vhd
-Z159 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block.vhd
+Z146 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block.vhd
+Z147 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block.vhd
 l0
 L4 1
 VYh<Bk:O1o4mX[3jfJW86m3
 !s100 Th<ChPcDZ9YOB<hJ:R8Gd2
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-Z160 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block.vhd|
-Z161 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block.vhd|
-!i113 1
-R12
+R65
+Z148 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block.vhd|
+Z149 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 11 logic_block 0 22 Yh<Bk:O1o4mX[3jfJW86m3
 !i122 43
 l16
-Z162 L14 7
+Z150 L14 7
 VNf_4z5g@9DT?=h;X;Xf;L1
 !s100 F2NWBVPh3B:=8PPo4Y6cY1
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-R160
-R161
-!i113 1
-R12
+R65
+R148
+R149
+!i113 0
 R13
+R14
 Elogic_block_signed
-Z163 w1611411274
-R3
+Z151 w1611411274
 R4
+R5
 !i122 42
 R0
-Z164 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block_signed.vhd
-Z165 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block_signed.vhd
+Z152 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block_signed.vhd
+Z153 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block_signed.vhd
 l0
 L4 1
 VHVU@553nZ1d8CN;77_liM3
 !s100 @B0MbLF>dN=5N9ldF?<iW2
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-Z166 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block_signed.vhd|
-Z167 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/logic_block_signed.vhd|
-!i113 1
-R12
+R65
+Z154 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block_signed.vhd|
+Z155 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block_signed.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 logic_block_signed 0 22 HVU@553nZ1d8CN;77_liM3
 !i122 42
 l17
 L15 9
 V7?a:Pjg49DK_LaI3mijQ_0
 !s100 RP?53^8d7j8[:4c`^?FU[2
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-R166
-R167
-!i113 1
-R12
+R65
+R154
+R155
+!i113 0
 R13
+R14
 Elogic_unit
-Z168 w1603130212
-R3
+Z156 w1603130212
 R4
+R5
 !i122 38
 R0
-Z169 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_unit.vhd
-Z170 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_unit.vhd
+Z157 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_unit.vhd
+Z158 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_unit.vhd
 l0
 L4 1
 VUaU0jUoBECk_>0od;;aIb1
 !s100 Egj@7Tb7LXMg;;W167JUJ0
-R7
+R8
 31
-Z171 !s110 1614695168
+R64
 !i10b 1
-R154
-Z172 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_unit.vhd|
-Z173 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/logic_unit/logic_unit.vhd|
-!i113 1
-R12
+R65
+Z159 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_unit.vhd|
+Z160 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 10 logic_unit 0 22 UaU0jUoBECk_>0od;;aIb1
 !i122 38
 l21
 L14 41
 V86VelWS;0iI6<eS3dRi2z1
 !s100 >gLcS]AfSh3=zOV90iB2m2
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-R172
-R173
-!i113 1
-R12
+R65
+R159
+R160
+!i113 0
 R13
+R14
 Ememory_address_manager
-Z174 w1613414754
-R3
+Z161 w1613414754
 R4
+R5
 !i122 3
 R0
-Z175 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_address_manager.vhd
-Z176 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_address_manager.vhd
+Z162 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_address_manager.vhd
+Z163 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_address_manager.vhd
 l0
 L4 1
 V<4_S8U_KPaUeM;3cj[SZ<2
 !s100 3S>?46L3_gEkYczJ>42C90
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z177 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_address_manager.vhd|
-Z178 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_address_manager.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z164 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_address_manager.vhd|
+Z165 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_address_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 22 memory_address_manager 0 22 <4_S8U_KPaUeM;3cj[SZ<2
 !i122 3
 l15
 L13 10
 VWk=Hgl6<Pm_M1k:TINEm:3
 !s100 Qh_M>2K[bN98]zlgGGb;R3
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R177
-R178
-!i113 1
-R12
+!i10b 1
+R30
+R164
+R165
+!i113 0
 R13
+R14
 Ememory_clk_state_machine
-Z179 w1613478602
-R3
+Z166 w1613478602
 R4
+R5
 !i122 2
 R0
-Z180 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/memory_clk_state_machine.vhd
-Z181 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/memory_clk_state_machine.vhd
+Z167 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/memory_clk_state_machine.vhd
+Z168 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/memory_clk_state_machine.vhd
 l0
 L4 1
 VUTbEUg<oUMV[ZzXXnW=5f3
 !s100 >QZFKVV:16=]InOJ:Hh]C2
-R7
+R8
 31
-R28
+R29
 !i10b 1
-R41
-Z182 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/memory_clk_state_machine.vhd|
-Z183 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/memory_clk_state_machine.vhd|
-!i113 1
-R12
+R30
+Z169 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/memory_clk_state_machine.vhd|
+Z170 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/memory_clk_state_machine.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 24 memory_clk_state_machine 0 22 UTbEUg<oUMV[ZzXXnW=5f3
 !i122 2
 l23
 L16 31
 V<TLKJRgMKMI`;Q^joIQF^0
 !s100 44[_DZRa3kOLQMR1B9ZN71
-R7
+R8
 31
-R28
+R29
 !i10b 1
-R41
-R182
-R183
-!i113 1
-R12
+R30
+R169
+R170
+!i113 0
 R13
+R14
 Ememory_manager
-Z184 w1613583282
-R3
+Z171 w1613583282
 R4
+R5
 !i122 20
 R0
-Z185 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_manager.vhd
-Z186 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_manager.vhd
+Z172 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_manager.vhd
+Z173 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_manager.vhd
 l0
 L4 1
 V[5@0anK<d[RmH@5^<8=iC3
 !s100 EmCD7Hi9>=z<fY]AAk12d0
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-Z187 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_manager.vhd|
-Z188 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/memory_manager.vhd|
-!i113 1
-R12
+R48
+Z174 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_manager.vhd|
+Z175 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 14 memory_manager 0 22 [5@0anK<d[RmH@5^<8=iC3
 !i122 20
 l52
 L20 76
 V2ldSaJ1j9c<XT@mdiHAA;1
 !s100 4R;2QJ8iEijoZ]oO[_W7?2
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R187
-R188
-!i113 1
-R12
+R48
+R174
+R175
+!i113 0
 R13
+R14
 Ememory_operations_controler
-Z189 w1613494796
-R3
+Z176 w1613494796
 R4
+R5
 !i122 23
 R0
-Z190 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/memory_operations_controler.vhd
-Z191 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/memory_operations_controler.vhd
+Z177 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/memory_operations_controler.vhd
+Z178 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/memory_operations_controler.vhd
 l0
 L4 1
 V]3m<8UcgkgSOi6?GKf=1a0
 !s100 Z1]4QS9@gXLXXSfbFWJ_:1
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-Z192 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/memory_operations_controler.vhd|
-Z193 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/memory_operations_controler.vhd|
-!i113 1
-R12
+R48
+Z179 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/memory_operations_controler.vhd|
+Z180 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/memory_operations_controler.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 27 memory_operations_controler 0 22 ]3m<8UcgkgSOi6?GKf=1a0
 !i122 23
 l19
-R44
+R43
 VafRoEQI2cYV]h5BPiD<T;3
 !s100 ;^F3BFIUXPOcdBiO_fCPU2
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R192
-R193
-!i113 1
-R12
+R48
+R179
+R180
+!i113 0
 R13
+R14
 Emultiplexer_128_to_32
-Z194 w1604174528
-R3
+Z181 w1604174528
 R4
+R5
 !i122 37
 R0
-Z195 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/multiplexer_128_to_32.vhd
-Z196 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/multiplexer_128_to_32.vhd
+Z182 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/multiplexer_128_to_32.vhd
+Z183 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/multiplexer_128_to_32.vhd
 l0
 L4 1
 VU0JKkzM]heElfB3bVMjkR0
 !s100 SfzZZJNkNN=C3URLzDLL20
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-Z197 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/multiplexer_128_to_32.vhd|
-Z198 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/others/multiplexer_128_to_32.vhd|
-!i113 1
-R12
+R65
+Z184 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/multiplexer_128_to_32.vhd|
+Z185 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/multiplexer_128_to_32.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 21 multiplexer_128_to_32 0 22 U0JKkzM]heElfB3bVMjkR0
 !i122 37
 l14
-Z199 L13 9
+Z186 L13 9
 V29<<A=L`VTGRb;lPTe6]E2
 !s100 75kWF9?ADUn`IzjA[24SO2
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-R197
-R198
-!i113 1
-R12
+R65
+R184
+R185
+!i113 0
 R13
+R14
 Emultiplexer_16_to_1
-Z200 w1612210826
-R3
+Z187 w1612210826
 R4
+R5
 !i122 5
 R0
-Z201 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/multiplexer_16_to_1.vhd
-Z202 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/multiplexer_16_to_1.vhd
+Z188 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/multiplexer_16_to_1.vhd
+Z189 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/multiplexer_16_to_1.vhd
 l0
 L4 1
 VX<IPhl3V5I_a]M>E`EmdD1
 !s100 zz8Cn9C_^OWd<WlIl@F1N2
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z203 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/multiplexer_16_to_1.vhd|
-Z204 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/multiplexer_16_to_1.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z190 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/multiplexer_16_to_1.vhd|
+Z191 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/multiplexer_16_to_1.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 19 multiplexer_16_to_1 0 22 X<IPhl3V5I_a]M>E`EmdD1
 !i122 5
 l14
 L12 24
 VmQb`75G<7bOT=`fX>SLa61
 !s100 5KbzociKINg9H_DT0n2Wl1
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R203
-R204
-!i113 1
-R12
+!i10b 1
+R30
+R190
+R191
+!i113 0
 R13
+R14
 Emultiplexer_2_to_1
-Z205 w1603214736
-R3
+Z192 w1603214736
 R4
+R5
 !i122 36
 R0
-Z206 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd
-Z207 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd
+Z193 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd
+Z194 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd
 l0
 L4 1
 V_gfg]5mkGQ499Q3REh8HU1
 !s100 ;AzM6gb1lSk_8]^E::2LO0
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-Z208 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd|
-Z209 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd|
-!i113 1
-R12
+R65
+Z195 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd|
+Z196 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_2_to_1.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_2_to_1 0 22 _gfg]5mkGQ499Q3REh8HU1
 !i122 36
 l15
-R162
+R150
 VOZ3@c]]NBhV@LCZG><Fg01
 !s100 z[7IEYnAB<nGfCjUEgaa13
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-R208
-R209
-!i113 1
-R12
+R65
+R195
+R196
+!i113 0
 R13
+R14
 Emultiplexer_32_to_16
-Z210 w1612869064
-R3
+Z197 w1612869064
 R4
+R5
 !i122 16
 R0
-Z211 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/multiplexer_32_to_16.vhd
-Z212 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/multiplexer_32_to_16.vhd
+Z198 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/multiplexer_32_to_16.vhd
+Z199 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/multiplexer_32_to_16.vhd
 l0
 L4 1
 V>hm<@Z83TTM2UH3QJf71?0
 !s100 75;Y:PJAC]EX3TPY6103f0
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-Z213 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/multiplexer_32_to_16.vhd|
-Z214 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/multiplexer_32_to_16.vhd|
-!i113 1
-R12
+R48
+Z200 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/multiplexer_32_to_16.vhd|
+Z201 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/multiplexer_32_to_16.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 20 multiplexer_32_to_16 0 22 >hm<@Z83TTM2UH3QJf71?0
 !i122 16
 l14
 L13 7
 Vd19^zNf3Ck653:?1iP11c1
 !s100 I<imeZRgjIERQR48n7Ik12
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R213
-R214
-!i113 1
-R12
+R48
+R200
+R201
+!i113 0
 R13
+R14
 Emultiplexer_4_to_1
-Z215 w1611410892
-R3
+Z202 w1611410892
 R4
+R5
 !i122 41
 R0
-Z216 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd
-Z217 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd
+Z203 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd
+Z204 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd
 l0
 L4 1
 VA>1JB>j<0`Ah06aiEFfPA3
 !s100 eo[38Eca34<?E==ZHA7E;2
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-Z218 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd|
-Z219 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd|
-!i113 1
-R12
+R65
+Z205 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd|
+Z206 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_4_to_1 0 22 A>1JB>j<0`Ah06aiEFfPA3
 !i122 41
 l14
-R199
+R186
 VmF2cC;0KbziKJ@C0]mCRe1
 !s100 41YjA828PJmE@f;OA@C7P0
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-R218
-R219
-!i113 1
-R12
+R65
+R205
+R206
+!i113 0
 R13
+R14
 Emultiplexer_block
-Z220 w1611411754
-R3
+Z207 w1611411754
 R4
+R5
 !i122 40
 R0
-Z221 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_block.vhd
-Z222 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_block.vhd
+Z208 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_block.vhd
+Z209 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_block.vhd
 l0
 L4 1
 VO0iOKo3KA8:8oKXfhNDB<2
 !s100 ^5kTfDa;OIz;MXH`P52d=0
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-Z223 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_block.vhd|
-Z224 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/comparator_unit/multiplexer_block.vhd|
-!i113 1
-R12
+R65
+Z210 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_block.vhd|
+Z211 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_block.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 17 multiplexer_block 0 22 O0iOKo3KA8:8oKXfhNDB<2
 !i122 40
 l15
 L14 11
 V1`8BWLhVF1z@4cY[=P45F2
 !s100 hKP2liE5>i23<lH20SVZ;3
-R7
+R8
 31
-R83
+R64
 !i10b 1
-R84
-R223
-R224
-!i113 1
-R12
+R65
+R210
+R211
+!i113 0
 R13
+R14
 Emultiplexer_row_b0
-Z225 w1613214478
-R3
+Z212 w1613214478
 R4
+R5
 !i122 35
 R0
-Z226 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b0.vhd
-Z227 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b0.vhd
+Z213 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b0.vhd
+Z214 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b0.vhd
 l0
 L4 1
 V6HW78_dOGP>;do7W3b;e@0
 !s100 gY?l]0EkWD2R2V^[;c4`[2
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-Z228 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b0.vhd|
-Z229 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b0.vhd|
-!i113 1
-R12
+R65
+Z215 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b0.vhd|
+Z216 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b0.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_row_b0 0 22 6HW78_dOGP>;do7W3b;e@0
 !i122 35
 l23
 L14 45
 Vb<oCc3KGd_iDoEHdY`aAP3
 !s100 5YKioEU<;GKC;99_F>_X33
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-R228
-R229
-!i113 1
-R12
+R65
+R215
+R216
+!i113 0
 R13
+R14
 Emultiplexer_row_b1
-Z230 w1613214500
-R3
+Z217 w1613214500
 R4
+R5
 !i122 34
 R0
-Z231 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b1.vhd
-Z232 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b1.vhd
+Z218 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b1.vhd
+Z219 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b1.vhd
 l0
 L4 1
 VCbQVmU68N`nV_VJ?Uc3RO2
 !s100 P83?MmdfRW9aPCkj@FSdR3
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-Z233 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b1.vhd|
-Z234 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b1.vhd|
-!i113 1
-R12
+R65
+Z220 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b1.vhd|
+Z221 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b1.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_row_b1 0 22 CbQVmU68N`nV_VJ?Uc3RO2
 !i122 34
 l23
 L14 47
 V2n6Y9SG6W<ciA5BnJIEh:3
 !s100 iQVXSKIjjn4aXMI^T6RFN0
-R7
+R8
 31
-R171
+R64
 !i10b 1
-R154
-R233
-R234
-!i113 1
-R12
+R65
+R220
+R221
+!i113 0
 R13
+R14
 Emultiplexer_row_b2
-Z235 w1613214518
-R3
+Z222 w1613214518
 R4
+R5
 !i122 33
 R0
-Z236 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b2.vhd
-Z237 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b2.vhd
+Z223 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b2.vhd
+Z224 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b2.vhd
 l0
 L4 1
 V:RQHcI_3X;RLIi2:WWaAl1
 !s100 Li=432=WIiZ6eOTRJT@351
-R7
+R8
 31
-R48
+R64
 !i10b 1
-R49
-Z238 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b2.vhd|
-Z239 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b2.vhd|
-!i113 1
-R12
+R65
+Z225 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b2.vhd|
+Z226 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b2.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_row_b2 0 22 :RQHcI_3X;RLIi2:WWaAl1
 !i122 33
 l23
 L14 51
 VDIzK8dRFg3h45C>_f07`f2
 !s100 zW:4OE<?40gzHeoCF9MHm3
-R7
+R8
 31
-R48
+R64
 !i10b 1
-R49
-R238
-R239
-!i113 1
-R12
+R65
+R225
+R226
+!i113 0
 R13
+R14
 Emultiplexer_row_b3
-Z240 w1613214568
-R3
+Z227 w1613214568
 R4
+R5
 !i122 32
 R0
-Z241 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b3.vhd
-Z242 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b3.vhd
+Z228 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b3.vhd
+Z229 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b3.vhd
 l0
 L4 1
 Vi:707VF03mC<Eib?=ZgPa2
 !s100 @?g4L]^>YF_iJQP0LI5aT1
-R7
+R8
 31
-R48
+R64
 !i10b 1
-R49
-Z243 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b3.vhd|
-Z244 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b3.vhd|
-!i113 1
-R12
+R65
+Z230 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b3.vhd|
+Z231 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b3.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_row_b3 0 22 i:707VF03mC<Eib?=ZgPa2
 !i122 32
 l23
 L14 59
 VDzm^XIEQP98FjaoH^9Y5h0
 !s100 ^dQIDl50F_NK>eQ:di=`n0
-R7
+R8
 31
-R48
+R64
 !i10b 1
-R49
-R243
-R244
-!i113 1
-R12
+R65
+R230
+R231
+!i113 0
 R13
+R14
 Emultiplexer_row_b4
-Z245 w1613214670
-R3
+Z232 w1613214670
 R4
+R5
 !i122 31
 R0
-Z246 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b4.vhd
-Z247 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b4.vhd
+Z233 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b4.vhd
+Z234 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b4.vhd
 l0
 L4 1
 VQG7FMY2EKVMGYO@^;iJVS1
 !s100 `hKC1H:nSOFgi4AQ3ZNZ;0
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-Z248 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b4.vhd|
-Z249 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/multiplexer_row_b4.vhd|
-!i113 1
-R12
+R48
+Z235 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b4.vhd|
+Z236 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/multiplexer_row_b4.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 multiplexer_row_b4 0 22 QG7FMY2EKVMGYO@^;iJVS1
 !i122 31
 l23
 L14 75
 VXJKGS=YETageHjBknKg`J1
 !s100 XnkHz_m9mfkz?]27mgAiH2
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-R248
-R249
-!i113 1
-R12
+R48
+R235
+R236
+!i113 0
 R13
+R14
 Epc_unit
-Z250 w1613388160
-R3
+Z237 w1613388160
 R4
+R5
 !i122 15
 R0
-Z251 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/PC_unit.vhd
-Z252 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/PC_unit.vhd
+Z238 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/PC_unit.vhd
+Z239 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/PC_unit.vhd
 l0
 L4 1
 VHbBB;<F^nlG8fF_[TPEE]0
 !s100 N9mOLfzK<k<7UVzfbYNQ;0
-R7
+R8
 31
-R147
+R47
 !i10b 1
-R148
-Z253 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/PC_unit.vhd|
-Z254 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/PC/PC_unit.vhd|
-!i113 1
-R12
+R48
+Z240 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/PC_unit.vhd|
+Z241 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/PC/PC_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 7 pc_unit 0 22 HbBB;<F^nlG8fF_[TPEE]0
 !i122 15
 l43
 L21 57
 VImRP4Nj6:Pc9m[KgUlVM@2
 !s100 b;FL;]6U4K7KAR@=;JC^;3
-R7
+R8
 31
-R147
+R47
 !i10b 1
-R148
-R253
-R254
-!i113 1
-R12
+R48
+R240
+R241
+!i113 0
 R13
+R14
 Eport_a_input_manager
-Z255 w1613585032
-R3
+Z242 w1613585032
 R4
+R5
 !i122 13
 R0
-Z256 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/port_A_input_manager.vhd
-Z257 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/port_A_input_manager.vhd
+Z243 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/port_A_input_manager.vhd
+Z244 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/port_A_input_manager.vhd
 l0
 L4 1
 VP4H9zOY]ck6`WIj;lzc702
 !s100 ^WHngVIe<=KF>Y@1F?ijS0
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-Z258 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/port_A_input_manager.vhd|
-Z259 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/port_A_input_manager.vhd|
-!i113 1
-R12
+R30
+Z245 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/port_A_input_manager.vhd|
+Z246 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/port_A_input_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 20 port_a_input_manager 0 22 P4H9zOY]ck6`WIj;lzc702
 !i122 13
 l36
 L19 36
 VVoIYV199DYlNAU?zQ?dIc1
 !s100 H^VIWAaEYoi75fR^D0>d>3
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-R258
-R259
-!i113 1
-R12
+R30
+R245
+R246
+!i113 0
 R13
+R14
 Eram_block
-Z260 w1613563866
-Z261 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
-R3
+Z247 w1646433839
+Z248 DPx9 altera_mf 20 altera_mf_components 0 22 z`PE^;i7^=^2F=6UIQiSN2
 R4
+R5
 !i122 59
 R0
-Z262 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd
-Z263 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd
+Z249 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd
+Z250 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd
 l0
-R101
+R97
 Vk<A7F:d^zBP?[T[B;2f^A0
 !s100 Wb[>=J>0C^BkmiO_gU]_F3
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-Z264 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd|
-Z265 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd|
-!i113 1
-R12
+R10
+Z251 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd|
+Z252 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/RAM_block.vhd|
+!i113 0
 R13
+R14
 Asyn
-R261
-R3
+R248
 R4
+R5
 DEx4 work 9 ram_block 0 22 k<A7F:d^zBP?[T[B;2f^A0
 !i122 59
 l61
 L57 39
 V3<8AZ>2E3jz17E2QDS]L:0
 !s100 96=K_`:cfeNcmh_lFd6?@2
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-R264
-R265
-!i113 1
-R12
+R10
+R251
+R252
+!i113 0
 R13
+R14
 Eram_unit
-Z266 w1613384900
-R3
+Z253 w1646817537
 R4
+R5
 !i122 19
 R0
-Z267 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/RAM_unit.vhd
-Z268 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/RAM_unit.vhd
+Z254 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/RAM_unit.vhd
+Z255 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/RAM_unit.vhd
 l0
 L4 1
 V>QYD5A8zi>AgBn1LbA7F:3
 !s100 _jdKHXS_lh65<:0=@Pj=K3
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-Z269 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/RAM_unit.vhd|
-Z270 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/RAM_unit.vhd|
-!i113 1
-R12
+R48
+Z256 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/RAM_unit.vhd|
+Z257 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/RAM_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 8 ram_unit 0 22 >QYD5A8zi>AgBn1LbA7F:3
 !i122 19
 l36
 L16 44
 VCWMP>K<]9X6UI9543>zOT1
 !s100 I9Ye03T6dIDjIC`YDXf_i0
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R269
-R270
-!i113 1
-R12
+R48
+R256
+R257
+!i113 0
 R13
+R14
 Eregister_file_block
-Z271 w1613563854
-R261
-R3
+Z258 w1646433834
+R248
 R4
+R5
 !i122 58
 R0
-Z272 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd
-Z273 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd
+Z259 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd
+Z260 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd
 l0
-R101
+R97
 VlCfJ0FFc3o?[Sk=kd;E9^1
 !s100 :ST1=7aU_C1QoCf;Z]?dB1
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-Z274 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd|
-Z275 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd|
-!i113 1
-R12
+R10
+Z261 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd|
+Z262 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/register_file_block.vhd|
+!i113 0
 R13
+R14
 Asyn
-R261
-R3
+R248
 R4
+R5
 DEx4 work 19 register_file_block 0 22 lCfJ0FFc3o?[Sk=kd;E9^1
 !i122 58
 l67
 L62 56
 V3TkgE61l4g8WJhF^zQWJ90
 !s100 jjgoA7MCSgi8k^mS4[8hN0
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-R274
-R275
-!i113 1
-R12
+R10
+R261
+R262
+!i113 0
 R13
+R14
 Eregister_file_unit
-Z276 w1613585652
-R3
+Z263 w1613585652
 R4
+R5
 !i122 12
 R0
-Z277 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/register_file_unit.vhd
-Z278 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/register_file_unit.vhd
+Z264 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/register_file_unit.vhd
+Z265 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/register_file_unit.vhd
 l0
 L4 1
 VQ4jLFXIFYoYd<EVmcnHDo1
 !s100 WZ4lYaNm5_1nhW?aHA1050
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-Z279 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/register_file_unit.vhd|
-Z280 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/register_file_unit.vhd|
-!i113 1
-R12
+R30
+Z266 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/register_file_unit.vhd|
+Z267 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/register_file_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 register_file_unit 0 22 Q4jLFXIFYoYd<EVmcnHDo1
 !i122 12
 l73
 L25 95
 Vm2kz8D=;KHWN59=GQ<eLR2
 !s100 m91iVYnh5KQWSbL]Ra9?61
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-R279
-R280
-!i113 1
-R12
+R30
+R266
+R267
+!i113 0
 R13
+R14
 Eregisters_file_controler
-Z281 w1613512944
-R3
+Z268 w1613512944
 R4
+R5
 !i122 22
 R0
-Z282 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/registers_file_controler.vhd
-Z283 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/registers_file_controler.vhd
+Z269 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/registers_file_controler.vhd
+Z270 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/registers_file_controler.vhd
 l0
 L4 1
 V`O24cMdOgh<[OX;LX`z7f1
 !s100 TJnR@Rfk0SmoOm4d>ZK7c1
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-Z284 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/registers_file_controler.vhd|
-Z285 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/decoder/registers_file_controler.vhd|
-!i113 1
-R12
+R48
+Z271 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/registers_file_controler.vhd|
+Z272 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/decoder/registers_file_controler.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 24 registers_file_controler 0 22 `O24cMdOgh<[OX;LX`z7f1
 !i122 22
 l32
 L30 54
 Vm9>P38foXTbk7KB@e[_6W3
 !s100 f74_LX5mC8@=C24nhoj;=0
-R7
+R8
 31
-R108
+R47
 !i10b 1
-R109
-R284
-R285
-!i113 1
-R12
+R48
+R271
+R272
+!i113 0
 R13
+R14
 Erom_block
-Z286 w1613946529
-R261
-R3
+Z273 w1647209070
+R248
 R4
+R5
 !i122 60
 R0
-Z287 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd
-Z288 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd
+Z274 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd
+Z275 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd
 l0
-R101
+R97
 VlPN^5V7c_zklT;;4bZgIz3
 !s100 L4D@RGJ8>Fn9AlLzFenh>1
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-Z289 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd|
-Z290 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd|
-!i113 1
-R12
+R10
+Z276 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd|
+Z277 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/BRAMs/ROM_block.vhd|
+!i113 0
 R13
+R14
 Asyn
-R261
-R3
+R248
 R4
+R5
 DEx4 work 9 rom_block 0 22 lPN^5V7c_zklT;;4bZgIz3
 !i122 60
 l66
 L58 62
-V[;GOW1<L[6n`4C>ak6Z<20
-!s100 HmKITO_BGC]<VA[O6L8kc3
-R7
+V2S[Y1C?7Cn0J`Ed:k_Q[m2
+!s100 h[Y>5]6n6A?JC[>PRg2Tc2
+R8
 31
-R95
+R9
 !i10b 1
-R102
-R289
-R290
-!i113 1
-R12
+R10
+R276
+R277
+!i113 0
 R13
+R14
 Erom_unit
-Z291 w1613563888
-R3
+Z278 w1613563888
 R4
+R5
 !i122 18
 R0
-Z292 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/ROM_unit.vhd
-Z293 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/ROM_unit.vhd
+Z279 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/ROM_unit.vhd
+Z280 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/ROM_unit.vhd
 l0
 L4 1
 VG6Yl9i`fMSU[5D1]NSn0O1
 !s100 NnezObc6N1C=gm>g4V`bH2
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-Z294 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/ROM_unit.vhd|
-Z295 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/memory/ROM_unit.vhd|
-!i113 1
-R12
+R48
+Z281 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/ROM_unit.vhd|
+Z282 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/ROM_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 8 rom_unit 0 22 G6Yl9i`fMSU[5D1]NSn0O1
 !i122 18
 l30
 L15 29
 VdKkbHiQgoHMc?;ZB0C`Bb0
 !s100 0<^3gY2L0a4k5ANl40FR32
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R294
-R295
-!i113 1
-R12
+R48
+R281
+R282
+!i113 0
 R13
+R14
 Eshift_unit
-Z296 w1611598598
-R3
+Z283 w1611598598
 R4
+R5
 !i122 30
 R0
-Z297 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_unit.vhd
-Z298 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_unit.vhd
+Z284 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_unit.vhd
+Z285 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_unit.vhd
 l0
 L4 1
 VXVb]8B]:P7VnjE7D1P9X=1
 !s100 aEk?zY9GL;gj7V0?A=kac2
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-Z299 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_unit.vhd|
-Z300 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_unit.vhd|
-!i113 1
-R12
+R48
+Z286 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_unit.vhd|
+Z287 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_unit.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 10 shift_unit 0 22 XVb]8B]:P7VnjE7D1P9X=1
 !i122 30
 l66
 L15 67
 VcZCb8BU8WCjE<[NG6H^G33
 !s100 E2QBnA3]o;EeM]kc6bCFV0
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-R299
-R300
-!i113 1
-R12
+R48
+R286
+R287
+!i113 0
 R13
+R14
 Eshift_way_converter
-Z301 w1604160796
-R3
+Z288 w1604160796
 R4
+R5
 !i122 29
 R0
-Z302 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_way_converter.vhd
-Z303 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_way_converter.vhd
+Z289 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_way_converter.vhd
+Z290 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_way_converter.vhd
 l0
 L4 1
 VV9gWNOeXJh7=o6l1ZkMV43
 !s100 ]?Ven>fH_S96Y8M_1[c_W3
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-Z304 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_way_converter.vhd|
-Z305 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/shift_unit/shift_way_converter.vhd|
-!i113 1
-R12
+R48
+Z291 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_way_converter.vhd|
+Z292 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_unit/shift_way_converter.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 19 shift_way_converter 0 22 V9gWNOeXJh7=o6l1ZkMV43
 !i122 29
 l21
 L13 42
 VWKlD:KBXOnPZn]dgK<GID1
 !s100 JTI5^fcolJ[WiRN4_eS>Y3
-R7
+R8
 31
-R48
+R47
 !i10b 1
-R49
-R304
-R305
-!i113 1
-R12
+R48
+R291
+R292
+!i113 0
 R13
+R14
 Estate_flags
-Z306 w1612866872
-R3
+Z293 w1612866872
 R4
+R5
 !i122 10
 R0
-Z307 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/state_flags/state_flags.vhd
-Z308 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/state_flags/state_flags.vhd
+Z294 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/state_flags/state_flags.vhd
+Z295 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/state_flags/state_flags.vhd
 l0
 L4 1
 V6NbKnO=ZKHdDN=Ad47T_L0
 !s100 cUSPEF58b`<_M<6HWFG@z2
-R7
+R8
 31
-R147
-!i10b 1
 R29
-Z309 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/state_flags/state_flags.vhd|
-Z310 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/state_flags/state_flags.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z296 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/state_flags/state_flags.vhd|
+Z297 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/state_flags/state_flags.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 11 state_flags 0 22 6NbKnO=ZKHdDN=Ad47T_L0
 !i122 10
 l20
 L15 26
 V0ZB=XoN4Kgc_ARlZLXn:F0
 !s100 :jfETPeaTalfGTMc<86UZ1
-R7
+R8
 31
-R147
-!i10b 1
 R29
-R309
-R310
-!i113 1
-R12
+!i10b 1
+R30
+R296
+R297
+!i113 0
 R13
+R14
 Esub_converter
-Z311 w1611494452
-R3
+Z298 w1611494452
 R4
+R5
 !i122 49
 R0
-Z312 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/sub_converter.vhd
-Z313 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/sub_converter.vhd
+Z299 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/sub_converter.vhd
+Z300 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/sub_converter.vhd
 l0
 L4 1
 VmV0zB?S5WlCKZZ3afh0=Q2
 !s100 YE[S;GRzQINFSXkdZBYHC2
-R7
+R8
 31
-R65
+R9
 !i10b 1
-R66
-Z314 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/sub_converter.vhd|
-Z315 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/sub_converter.vhd|
-!i113 1
-R12
+R65
+Z301 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/sub_converter.vhd|
+Z302 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/sub_converter.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 13 sub_converter 0 22 mV0zB?S5WlCKZZ3afh0=Q2
 !i122 49
 l14
 L13 35
 V?;4kUl?n9?CiEhd[QSdo32
 !s100 NIP6fdQnLNCiInW;4e91h3
-R7
+R8
 31
-R65
+R9
 !i10b 1
-R66
-R314
-R315
-!i113 1
-R12
+R65
+R301
+R302
+!i113 0
 R13
+R14
 Etb_cpu
-Z316 w1613574888
-R2
+Z303 w1613574888
 R3
 R4
+R5
 !i122 62
 R0
-Z317 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd
-Z318 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd
+Z304 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd
+Z305 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd
 l0
 L5 1
 V?8dSeFMnJC<]Zjb76IK[k0
 !s100 [N6iZA7B>3Z=6l1z<0@^n0
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-Z319 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd|
-!s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd|
-!i113 1
-R12
+R10
+Z306 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd|
+Z307 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd|
+!i113 0
 R13
+R14
 Atest_bench
-R2
 R3
 R4
+R5
 DEx4 work 6 tb_cpu 0 22 ?8dSeFMnJC<]Zjb76IK[k0
 !i122 62
 l21
 L8 48
 V[GQ1<C@i[kfb:^<iAZe]U1
 !s100 c>bR@NSH]1;:MP`n;VSgS0
-R7
+R8
 31
-R95
+R9
 !i10b 1
-R102
-R319
-Z320 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/FPGA_cyclone10lp/quartus_project_1/../../CPU/tb_CPU.vhd|
-!i113 1
-R12
+R10
+R306
+R307
+!i113 0
 R13
+R14
 Etemporary_register
-Z321 w1613405554
-R3
+Z308 w1613405554
 R4
+R5
 !i122 21
 R0
-Z322 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/internal_registers/temporary_register.vhd
-Z323 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/internal_registers/temporary_register.vhd
+Z309 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/internal_registers/temporary_register.vhd
+Z310 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/internal_registers/temporary_register.vhd
 l0
 L4 1
 V@mA[=F==SYgf^jO0nhZ0^3
 !s100 B6iGV63XHXakQE[f6J]f:3
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-Z324 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/internal_registers/temporary_register.vhd|
-Z325 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/internal_registers/temporary_register.vhd|
-!i113 1
-R12
+R48
+Z311 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/internal_registers/temporary_register.vhd|
+Z312 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/internal_registers/temporary_register.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 18 temporary_register 0 22 @mA[=F==SYgf^jO0nhZ0^3
 !i122 21
 l16
 L12 16
 VYeG_a<@HlPPLSkN_Un>WA1
 !s100 Gn]eM<9iSLo`G1Od:`0Xb3
-R7
+R8
 31
-R125
+R47
 !i10b 1
-R126
-R324
-R325
-!i113 1
-R12
+R48
+R311
+R312
+!i113 0
 R13
+R14
 Etwo_wide_carry_manager
-Z326 w1611509030
-R3
+Z313 w1611509030
 R4
+R5
 !i122 48
 R0
-Z327 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd
-Z328 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd
+Z314 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd
+Z315 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd
 l0
 L4 1
 V8JBoJ1LQH4Gn^V:[HobmC2
 !s100 JX5MeIRPf;l;:;WLKlZ:f0
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
-Z329 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd|
-Z330 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd|
-!i113 1
-R12
+R65
+Z316 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd|
+Z317 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 22 two_wide_carry_manager 0 22 8JBoJ1LQH4Gn^V:[HobmC2
 !i122 48
 l16
 L15 7
 VY0`UP8DJO^[dL6[RKfXJ31
 !s100 >BNLS<ZB@5PYPJWU:1[5V1
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
-R329
-R330
-!i113 1
-R12
+R65
+R316
+R317
+!i113 0
 R13
+R14
 Euart_tx
-Z331 w1613586010
-R3
+Z318 w1613586010
 R4
+R5
 !i122 4
 R0
-Z332 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/uart_tx.vhd
-Z333 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/uart_tx.vhd
+Z319 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/uart_tx.vhd
+Z320 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/uart_tx.vhd
 l0
 L4 1
 VI[Jb<Xc<NJ=XG1hk_8YGh0
 !s100 FH1;aHzTCOD4`IVW:iV`93
-R7
+R8
 31
-R28
-!i10b 1
 R29
-Z334 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/uart_tx.vhd|
-Z335 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/external_components/uart_tx/uart_tx.vhd|
-!i113 1
-R12
+!i10b 1
+R30
+Z321 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/uart_tx.vhd|
+Z322 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/uart_tx.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 7 uart_tx 0 22 I[Jb<Xc<NJ=XG1hk_8YGh0
 !i122 4
 l77
 L17 153
 VAWgb1M@bom=fXeX??FRV_1
 !s100 RFK>2P9_S6:Oe^9>H9Ec71
-R7
+R8
 31
-R28
-!i10b 1
 R29
-R334
-R335
-!i113 1
-R12
+!i10b 1
+R30
+R321
+R322
+!i113 0
 R13
+R14
 Eupgraded_full_adder
-Z336 w1611432378
-R2
+Z323 w1611432378
 R3
 R4
+R5
 !i122 47
 R0
-Z337 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd
-Z338 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd
+Z324 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd
+Z325 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd
 l0
 L5 1
 V8R5`?J1<BGYfaW<PR`C0a2
 !s100 37eHH33VKioKc[?9bRdbB1
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
-Z339 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd|
-Z340 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd|
-!i113 1
-R12
+R65
+Z326 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd|
+Z327 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R2
 R3
 R4
+R5
 DEx4 work 19 upgraded_full_adder 0 22 8R5`?J1<BGYfaW<PR`C0a2
 !i122 47
 l19
 L18 10
 V4Vj=llMJ@A1J2iD1S6dkT3
 !s100 b?=dgJZInNL;3MV@O]mA=2
-R7
+R8
 31
-R65
+R64
 !i10b 1
-R66
-R339
-R340
-!i113 1
-R12
+R65
+R326
+R327
+!i113 0
 R13
+R14
 Ex0_manager
-Z341 w1613582072
-R3
+Z328 w1613582072
 R4
+R5
 !i122 11
 R0
-Z342 8C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/x0_manager.vhd
-Z343 FC:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/x0_manager.vhd
+Z329 8/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/x0_manager.vhd
+Z330 F/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/x0_manager.vhd
 l0
 L4 1
 V^IGa8m72?18ISmGRKg^WM2
 !s100 D7U2K54inbW]M>8_W3n3M2
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-Z344 !s90 -reportprogress|300|-93|-work|work|C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/x0_manager.vhd|
-Z345 !s107 C:/Users/sylva/OneDrive/Documents/projets/projets/riscv_core/CPU/register_file/x0_manager.vhd|
-!i113 1
-R12
+R30
+Z331 !s90 -reportprogress|300|-93|-work|work|/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/x0_manager.vhd|
+Z332 !s107 /home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/register_file/x0_manager.vhd|
+!i113 0
 R13
+R14
 Abehavioral
-R3
 R4
+R5
 DEx4 work 10 x0_manager 0 22 ^IGa8m72?18ISmGRKg^WM2
 !i122 11
 l18
 L13 22
 VP1G^eMT8dKa0cJiUMSzfJ0
 !s100 lJ<<Wi25E>W`lBIFZ`U;b3
-R7
+R8
 31
-R147
+R29
 !i10b 1
-R148
-R344
-R345
-!i113 1
-R12
+R30
+R331
+R332
+!i113 0
 R13
+R14
