@@ -6,6 +6,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -vlog01compat -work work +incdir+/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db {/home/sylvain/Nextcloud/Projects/RISCV-4fun/FPGA_cyclone10lp/quartus_project_1/db/cpu_clock_altpll1.v}
+vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_32bits.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/ALU_inputs_manager.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/external_components/uart_tx/memory_clk_state_machine.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/memory/memory_address_manager.vhd}
@@ -45,21 +46,10 @@ vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/shift_u
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/others/multiplexer_128_to_32.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_unit.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/logic_unit/logic_bloc_1_bit.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_block.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block_signed.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/logic_block.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/comparator_unit.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits_signed.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/comparator_unit/block_2_bits.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/sub_converter.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/carry_generator.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/arithmetic_unit.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd}
-vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU_package.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/ALU/ALU.vhd}
 vcom -93 -work work {/home/sylvain/Nextcloud/Projects/RISCV-4fun/CPU/CPU.vhd}

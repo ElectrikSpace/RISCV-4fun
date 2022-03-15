@@ -10,51 +10,25 @@ architecture test_bench of tb_comparator_unit is
     port
   	(
   		a : in std_logic_vector(31 downto 0);
-  		b : in std_logic_vector(31 downto 0);	
-      sub_result : in std_logic_vector(31 downto 0);
-      sub_cout : in std_logic;
-		  is_signed : in std_logic;
-		  opcode: in std_logic_vector(1 downto 0);
-   		o : out std_logic
+      b : in std_logic_vector(31 downto 0);
+  		is_signed : in std_logic;
+  		opcode: in std_logic_vector(1 downto 0);
+      o : out std_logic_vector(31 downto 0)
   	);
   end component;
 
-  component arithmetic_unit is
-		port 
-		(
-		  	a : in std_logic_vector(31 downto 0);
-        b : in std_logic_vector(31 downto 0);
-        is_sub : in std_logic;
-	    	cout : out std_logic;
-        o : out std_logic_vector(31 downto 0)
-		);
-	end component;
-
-  signal a, b, sub_result: std_logic_vector(31 downto 0);
+  signal a, b, o: std_logic_vector(31 downto 0);
   signal opcode: std_logic_vector(1 downto 0);
   signal is_signed: std_logic;
-  signal cout : std_logic;
-  signal o : std_logic;
 
   begin
-    used_arithmetic_unit: arithmetic_unit port map (
-        a => a,
-        b => b,
-        is_sub => '1',
-        cout => cout,
-        o => sub_result
-    );
-
     used_comparator_unit: comparator_unit port map (
       a => a,
       b => b,
-      sub_result => sub_result,
-      sub_cout => cout,
       is_signed => is_signed,
       opcode => opcode,
       o => o
     );
-
     process
     begin
       opcode <= "00";

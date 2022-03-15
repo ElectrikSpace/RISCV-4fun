@@ -1,4 +1,0 @@
-v 4
-file . "adder_block_4_bits_serial.vhd" "b6c906bf934f478d2712c1027c90313ffee35bec" "20220307234954.469":
-  entity adder_block_4_bits_serial at 1( 0) + 0 on 11;
-  architecture behavioral of adder_block_4_bits_serial at 17( 386) + 0 on 12;

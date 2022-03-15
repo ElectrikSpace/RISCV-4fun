@@ -13,6 +13,7 @@ architecture test_bench of tb_arithmetic_unit is
       b : in std_logic_vector(31 downto 0);
       is_sub : in std_logic;
       o : out std_logic_vector(31 downto 0)
+      --c_out : out std_logic
   	);
   end component;
 

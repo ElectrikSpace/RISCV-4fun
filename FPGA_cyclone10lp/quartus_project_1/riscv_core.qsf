@@ -69,6 +69,7 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_CPU
 set_global_assignment -name EDA_TEST_BENCH_RUN_SIM_FOR "100 us" -section_id tb_CPU
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_CPU -section_id tb_CPU
 set_global_assignment -name EDA_TEST_BENCH_FILE ../../CPU/tb_CPU.vhd -section_id tb_CPU
+set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/adder_32bits.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/others/ALU_inputs_manager.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/tb_CPU.vhd
 set_global_assignment -name VHDL_FILE ../../external_components/uart_tx/memory_clk_state_machine.vhd
@@ -111,21 +112,10 @@ set_global_assignment -name VHDL_FILE ../../CPU/ALU/others/multiplexer_128_to_32
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/others/encoder_4_to_2.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/logic_unit/logic_unit.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/logic_unit/logic_bloc_1_bit.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/multiplexer_block.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/multiplexer_4_to_1.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/logic_block_signed.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/logic_block.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/comparator_unit.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/block_2_bits_signed.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/comparator_unit/block_2_bits.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/upgraded_full_adder.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/two_wide_carry_manager.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/sub_converter.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/carry_generator.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/arithmetic_unit.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/adder_block_16_bits.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/adder_block_8_bits.vhd
-set_global_assignment -name VHDL_FILE ../../CPU/ALU/arithmetic_unit/adder_block_4_bits_serial.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/ALU_package.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/ALU/ALU.vhd
 set_global_assignment -name VHDL_FILE ../../CPU/CPU.vhd
